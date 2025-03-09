@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #121212; /* Dark background for a sleek academic look */
+    color: #f8f8f8; /* Light text for contrast */
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #1e1e1e, #3b3b3b); /* Subtle dark gradient */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    color: #f1c40f; /* Gold accent */
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #f1c40f; /* Gold hover effect */
+    color: #121212;
+}
+
+/* Content Section */
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(241, 196, 15, 0.2);
+}
+
+/* Headings */
+h2 {
+    color: #f1c40f;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 10px;
+}
+
+/* Reference List */
+.reference-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reference-list li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #2c2c2c;
+    border-left: 5px solid #f1c40f; /* Gold sidebar for styling */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(241, 196, 15, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.reference-list li:hover {
+    transform: scale(1.02);
+    background: #3b3b3b;
+}
+
+/* Links */
+.reference-list a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reference-list a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #1e1e1e;
+    color: #f1c40f;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}

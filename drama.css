@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #0d0d0d; /* Deep Black Theater Theme */
+    color: #f8f8f8; /* Light text for contrast */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #8b0000, #3d0000); /* Dramatic Red Gradient */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    color: #ffd700; /* Gold for an elegant look */
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #ffd700; /* Gold hover effect */
+    color: #3d0000;
+}
+
+/* Content Section */
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+}
+
+/* Headings */
+h2 {
+    color: #ffd700;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #ffb700;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 5px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    margin-left: 25px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Video Section */
+.video-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Video Thumbnail Preview */
+.video-preview {
+    display: inline-block;
+    position: relative;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.video-preview:hover {
+    transform: scale(1.05);
+}
+
+.video-preview img {
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid #ffd700;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+/* Watch Button */
+.watch-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ffd700;
+    color: #3d0000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.watch-button:hover {
+    background-color: #e6b800;
+}
+
+/* Footer */
+footer {
+    background: #3d0000;
+    color: #ffd700;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
